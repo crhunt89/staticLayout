@@ -1,0 +1,212 @@
+#nfLogo {
+    width: 200px;
+    position: absolute;    
+}
+#topHeader{
+    background-image: url(../4-assets/nfBackground.jpg);
+    height: 90vh;
+    width: 100vw;
+    margin: 0;
+}
+body{
+    background-color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden
+}
+.nfHeader{
+    height: 45px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+}
+.button {
+    background-color: red;
+    font-size: 16px;
+    border-radius: 3px;
+    text-align: right;
+    border: 0;
+    padding: 10px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    }
+a{
+    color: white;
+    text-decoration: none;
+}
+#nfRight{
+        float: right;
+        color: white;
+        margin: 30px;
+     }
+.headWrapper {
+    position: absolute;
+    top: 200px;
+    bottom: 50px;
+}
+.headText {
+    position: relative;
+    top: 0;
+}
+.nfPitch {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.1em;
+    margin: 0 0 30px;
+    position: relative;
+    color: white;
+}
+.pricing {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.25em;
+    margin: 0 0 25px;
+    color: white;
+}
+.trial {
+    background-color: red;
+    font-size: 30px;
+    border-radius: 0px;
+    text-align: center;
+    border: 0px;
+    padding: 24.5px 2em;
+    margin: .5em .5em .5em 0;
+    min-width: 74px;
+    min-height: 50px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+#infoNav {
+    height: 40vh;
+    width: 100vw;
+    background-color: black;
+    border-bottom: 2px solid black;
+    border-right: none;
+    margin: 0;
+}
+.infoHeader {
+    text-align: center;
+    cursor: pointer;
+}
+.navListThreeItems{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 100vw;
+}
+.itemOne{
+    width: 33%;
+    color: white;
+    fill: white;
+    display: inline-block;
+    padding: 0 1px;
+    vertical-align: top;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.itemTwo{
+    width: 33%;
+    color: white;
+    fill: white;
+    display: inline-block;
+    padding: 0 1px;
+    vertical-align: top;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.itemThree{
+    width: 33.3%;
+    color: white;
+    fill: white;
+    display: inline-block;
+    padding: 0 1px;
+    vertical-align: top;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.itemOneCell{
+    border-bottom: 5px solid red;
+    height: 125px;
+    box-sizing: border-box;
+    width: 33%;
+}
+.itemTwoCell{
+    border-bottom: 5px solid red;
+    height: 125px;
+    box-sizing: border-box;
+    width: 33%;
+}
+.itemThreeCell{
+    border-bottom: 5px solid red;
+    height: 125px;
+    box-sizing: border-box;
+    width: 33%;
+}
+.nfFooterWrapper{
+    min-width: 190px;
+    width: 100%;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    background-color: black;
+    position: relative;
+}
+.footerDivider{
+    border: 0;
+    height: 0;
+    width: 100%;
+    background-color: black;
+}
+.nfFooter{
+    height: 100%;
+    max-width: 100vw;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 90%;
+    }
+.footerTop{
+    padding: 0;
+    margin: 0 0 30px;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: grey;
+}
+.footerLinks{
+    max-width: 1000px;
+    font-size: 13px;
+    box-sizing: border-box;
+    color: grey;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: grey;
+}
+.footerLinkItem{
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+    vertical-align: top;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    margin-left: 0;
+}
