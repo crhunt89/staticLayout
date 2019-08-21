@@ -9,7 +9,7 @@ body{
     position: absolute;    
 }
 #topHeader{
-    background-image: url(../Portfolio/Assets/nfBackground.jpg);
+    background-image: url(./assets/nfBackground.jpg);
     height: 90vh;
     width: 100vw;
     margin: 0;
